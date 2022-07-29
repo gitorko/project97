@@ -1,0 +1,219 @@
+{
+	"info": {
+		"_postman_id": "bc8f6a13-bd55-41a7-9432-304cfac8e18b",
+		"name": "Project97",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4185850"
+	},
+	"item": [
+		{
+			"name": "send-channel1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/send-channel1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"send-channel1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "send-channel2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/send-channel2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"send-channel2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "send-channel3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/send-channel3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"send-channel3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "send-channel4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/send-channel4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"send-channel4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "send-channel5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/send-channel5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"send-channel5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "send-channel6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/send-channel6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"send-channel6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "send-polledchannel1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/send-polledchannel1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"send-polledchannel1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "send-dbchannel1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/send-dbchannel1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"send-dbchannel1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "seed-data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/seed-data",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"seed-data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "file-copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/file-copy",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"file-copy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "send-queue",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/send-queue",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"send-queue"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
