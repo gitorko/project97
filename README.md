@@ -2,10 +2,16 @@
 
 Spring Integration
 
+[https://gitorko.github.io/spring-integration-basics/](https://gitorko.github.io/spring-integration-basics/)
 
-## Setup
+### Version
 
-You need java 17 installed
+Check version
+
+```bash
+$java --version
+openjdk 17.0.3 2022-04-19 LTS
+```
 
 ### RabbitMQ
 
@@ -15,30 +21,32 @@ Run the docker command to start a rabbitmq instance
 docker run -d --hostname my-rabbit -p 8080:15672 -p 5672:5672 rabbitmq:3-management
 ```
 
-You can login to the rabbitmq console with username:guest password: guest
+Login to rabbitmq console [http://localhost:8080](http://localhost:8080)
 
-[http://localhost:8080](http://localhost:8080)
+```
+username:guest
+password: guest
+```
 
 ### Postgres DB
 
-```bash
+```
 docker run -p 5432:5432 --name pg-container -e POSTGRES_PASSWORD=password -d postgres:9.6.10
 docker ps
-docker run -it --rm --link pg-container:postgres postgres psql -h postgres -U postgres
+docker exec -it pg-container psql -U postgres -W postgres
 CREATE USER test WITH PASSWORD 'test@123';
 CREATE DATABASE "test-db" WITH OWNER "test" ENCODING UTF8 TEMPLATE template0;
 grant all PRIVILEGES ON DATABASE "test-db" to test;
-```
 
-If container already exists then start it
-
-```bash
+docker stop pg-container
 docker start pg-container
 ```
 
 ### Dev
 
+To run the code.
+
 ```bash
-cd project97
+./gradlew clean build
 ./gradlew bootRun
 ```
